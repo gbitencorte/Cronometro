@@ -3,6 +3,7 @@ let segundos = 0;
 let intervalo = null;
 
 // Eventos do DOM para manipulação
+const h1 = document.getElementById('h1')
 const display = document.getElementById('display');
 const btnIniciar = document.getElementById('btn-iniciar');
 const btnPausar = document.getElementById('btn-pausar');

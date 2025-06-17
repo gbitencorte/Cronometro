@@ -7,17 +7,21 @@
 body{
     font-family: "Libre Baskerville";
     text-align: center;
-    margin-top: 50px;
-    background-color: #194073;
+    background-color: #BDBFAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 #display{
-    color: #fff;
-    font-size: 90px;
+    color: #D94B18;
+    font-size: 120px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 button{
@@ -26,6 +30,24 @@ button{
     font-size: 16px;
     border-radius: 8px;
     font-family: "Libre Baskerville";
-    background-color: aliceblue;
+    background-color: #D94B18;
+    border-color: #D94B18;
+    color: #F2EBDC;
+    margin-bottom: 130px;
     
+}
+
+h1{
+    color: #D94B18;
+    font-size: 80px;
+    font-family: "Cardo";
+    margin-top: 10px;
+    padding: 100px;
+    
+}
+
+.container{
+    background-color: #F2EBDC;
+    border-radius: 10px;
+
 }
