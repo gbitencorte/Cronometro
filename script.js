@@ -58,4 +58,5 @@ function formatarTempo(segundosTotais){
 // Função que envia o tempo para a página
 function atualizaDisplay() {
     display.textContent = formatarTempo(segundos)
+    
 }
